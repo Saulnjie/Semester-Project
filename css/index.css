@@ -1,1 +1,86 @@
-/* Denne hører til index.html */
+:root {
+  /* BREAKPOINTS */
+  --breakpoint-tablet: 640px;
+  --breakpoint-laptop: 1024px; /* <----- main breakpoint */
+  --breakpoint-desktop: 1280px;
+
+  /* COLORS */
+  --primary-color: #de0d48;
+  --yellow: #d4c30d;
+  --purple: #722099;
+  --blue: #1b0dde;
+  --orange-dark: #c74b16;
+  --orange-light: #de950d;
+  --gray-50: #f9fafb;
+  --gray-100: #f3f4f6;
+  --gray-200: #e5e7eb;
+  --gray-300: #d1d5db;
+  --gray-400: #9ca3af;
+  --gray-500: #6b7280;
+  --gray-600: #4b5563;
+  --gray-700: #374151;
+  --gray-800: #1f2937;
+  --gray-900: #111827;
+}
+
+.h2-blue {
+  color: var(--blue);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.h2-yellow {
+  color: var(--yellow);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.h2-orange-light {
+  color: var(--orange-light);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.h2-purple {
+  color: var(--purple);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.h2-white {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.h2-primary-color {
+  color: var(--primary-color);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.h2-join-us-title {
+  color: var(--primary-color);
+  font-size: 20px;
+}
+.h2-support {
+  font-size: 20px;
+  font-weight: bold;
+}
+.cards p {
+  font-size: 12px;
+}
+
+.cards-info {
+  height: 80px;
+}
+.cards-info-black {
+  height: 100px;
+  background-color: black;
+}
+.cards-info-black p {
+  color: white;
+}
+img {
+  max-height: 600px;
+}

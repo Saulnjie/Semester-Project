@@ -12,6 +12,7 @@
   --primary-color: #de0d48;
   --yellow: #d4c30d;
   --purple: #722099;
+  --blue: #1b0dde;
   --orange-dark: #c74b16;
   --orange-light: #de950d;
   --gray-50: #f9fafb;
@@ -33,6 +34,51 @@ body {
 
 .container {
   padding: 20px;
+  flex-direction: column;
+}
+.header-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #707070;
+}
+
+.exhibition-nav-title {
+  color: #de0d48;
+}
+
+.logo {
+  font-size: 20px;
+}
+
+img {
+  width: 375px;
+}
+
+li {
+  list-style: none;
+}
+
+.buy-ticket-button {
+  background-color: #de0d48;
+  color: white;
+  border-radius: 12px;
+  padding: 4px 8px 4px 8px;
+  width: 120px;
+}
+.get-involved-button {
+  width: 165px;
+  height: 70px;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 12px;
 }
 
 @media (min-width: 1024px) {
