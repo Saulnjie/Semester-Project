@@ -56,6 +56,13 @@ body {
 
 .logo {
   font-size: 20px;
+  font-weight: bold;
+}
+
+.footer-logo {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
 }
 
 img {
@@ -79,6 +86,34 @@ li {
   background-color: var(--primary-color);
   color: white;
   border-radius: 12px;
+}
+.footer-container {
+  height: 500px;
+  width: 375px;
+  background-color: var(--primary-color);
+  margin-top: 40px;
+  margin-left: -20px;
+  padding: 20px;
+  color: white;
+}
+.footer-container p {
+  font-size: 14px;
+}
+.opening-hours-title {
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 16px;
+}
+.location-title {
+  margin-top: 20px;
+  font-weight: bold;
+}
+.footer-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-top: 60px;
 }
 
 @media (min-width: 1024px) {

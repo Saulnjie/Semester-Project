@@ -73,10 +73,14 @@
 
 .cards-info {
   height: 80px;
+  width: 335px;
+  padding-left: 5px;
 }
 .cards-info-black {
   height: 100px;
+  width: 335px;
   background-color: black;
+  padding-left: 5px;
 }
 .cards-info-black p {
   color: white;
