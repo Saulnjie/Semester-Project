@@ -23,27 +23,57 @@
   --gray-900: #111827;
 }
 
-.involve-title {
+.summary-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
   color: var(--primary-color);
+}
+.summary-banner {
+  /* how do I make this smaller? and fit (200px)*/
+}
+.thank-you {
   font-size: 18px;
   font-weight: bold;
-  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #24a334;
 }
 
-.involve-sub-title {
+.summary-paragraph {
+  margin-bottom: 40px;
+}
+
+.summary-quantity {
+}
+
+.summary-total {
+  color: var(--primary-color);
   font-weight: bold;
 }
 
-.involve-button-container {
+.summary-button-container {
   display: flex;
-  flex-direction: row;
 }
-.button-involve {
+.summary-button {
   display: flex;
   width: 120px;
   height: 50px;
   background-color: var(--primary-color);
   color: white;
+  border-radius: 16px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.summary-button-white {
+  display: flex;
+  width: 120px;
+  height: 50px;
+  background-color: white;
+  color: var(--primary-color);
+  border: var(--primary-color) 2px solid;
   border-radius: 16px;
   justify-content: center;
   align-items: center;

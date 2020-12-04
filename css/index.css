@@ -85,6 +85,9 @@
 .cards-info-black p {
   color: white;
 }
+.volunteer-paragraph {
+  font-weight: bold;
+}
 img {
   max-height: 600px;
 }

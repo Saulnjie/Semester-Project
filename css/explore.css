@@ -1,4 +1,3 @@
-,
 :root {
   /* BREAKPOINTS */
   --breakpoint-tablet: 640px;
@@ -24,21 +23,19 @@
   --gray-900: #111827;
 }
 
-.visit-title {
+.h2-explore-title {
   font-size: 20px;
   font-weight: bold;
-  margin-bottom: 10px;
   color: var(--primary-color);
+  margin-bottom: 20px;
 }
 
-.visit-sub-titles {
-  font-size: 16px;
+.explore-sub-title {
+  font-size: 18px;
+  font-weight: bold;
   margin-top: 20px;
-  font-weight: bold;
+  margin-bottom: 5px;
 }
 
-.ticket-option-paragraph {
-  margin-top: 40px;
-  font-weight: bold;
-  margin-bottom: 10px;
+.explore-paragraph {
 }
