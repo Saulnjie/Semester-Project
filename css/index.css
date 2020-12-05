@@ -23,12 +23,6 @@
   --gray-900: #111827;
 }
 
-.h2-blue {
-  color: var(--blue);
-  font-size: 16px;
-  font-weight: bold;
-}
-
 .h2-yellow {
   color: var(--yellow);
   font-size: 16px;
@@ -68,19 +62,34 @@
   font-weight: bold;
 }
 .cards p {
-  font-size: 12px;
+  font-size: 14px;
 }
 
-.cards-info {
-  height: 80px;
-  width: 335px;
-  padding-left: 5px;
+.cards .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
 }
+
+.cards-info h2 {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.cards-info-blue h2,
+.cards-info-blue + button {
+  color: var(--blue);
+}
+
+.cards-info-yellow h2,
+.cards-info-yellow + button {
+  color: var(--yellow);
+}
+
 .cards-info-black {
-  height: 100px;
-  width: 335px;
   background-color: black;
-  padding-left: 5px;
+  padding: 16px;
 }
 .cards-info-black p {
   color: white;
@@ -88,6 +97,9 @@
 .volunteer-paragraph {
   font-weight: bold;
 }
-img {
-  max-height: 600px;
+
+.cards img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
 }

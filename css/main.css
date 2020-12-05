@@ -2,6 +2,7 @@
   This file is used to style HTML included in multiple pages.
 */
 
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap");
 :root {
   /* BREAKPOINTS */
   --breakpoint-tablet: 640px;
@@ -25,6 +26,12 @@
   --gray-700: #374151;
   --gray-800: #1f2937;
   --gray-900: #111827;
+
+  --border-radius: 8px;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
 }
 
 html,
@@ -73,28 +80,36 @@ li {
   list-style: none;
 }
 
-.buy-ticket-button {
-  background-color: #de0d48;
-  color: white;
-  border-radius: 12px;
-  padding: 4px 8px 4px 8px;
-  width: 120px;
-}
-.get-involved-button {
-  width: 165px;
-  height: 70px;
+/* BUTTONS */
+.button {
   background-color: var(--primary-color);
+  padding: 12px 16px;
+  border-radius: var(--border-radius);
+  border: none;
   color: white;
-  border-radius: 12px;
+  cursor: pointer;
+  transition: opacity 100ms ease-in-out;
 }
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button-outlined {
+  background-color: transparent;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
 .footer-container {
-  height: 500px;
-  width: 375px;
+  padding: 16px;
   background-color: var(--primary-color);
-  margin-top: 40px;
-  margin-left: -20px;
-  padding: 20px;
   color: white;
+}
+
+.footer-container iframe {
+  width: 100%;
+  height: 250px;
 }
 .footer-container p {
   font-size: 14px;
@@ -122,3 +137,11 @@ li {
     margin: 0 auto;
   }
 }
+
+/* h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 8px 0;
+} */
