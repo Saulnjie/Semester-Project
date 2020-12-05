@@ -78,12 +78,12 @@
 }
 
 .cards-info-blue h2,
-.cards-info-blue + button {
+.cards-info-blue + a {
   color: var(--blue);
 }
 
 .cards-info-yellow h2,
-.cards-info-yellow + button {
+.cards-info-yellow + a {
   color: var(--yellow);
 }
 
