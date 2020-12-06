@@ -23,36 +23,6 @@
   --gray-900: #111827;
 }
 
-.h2-yellow {
-  color: var(--yellow);
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.h2-orange-light {
-  color: var(--orange-light);
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.h2-purple {
-  color: var(--purple);
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.h2-white {
-  color: white;
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.h2-primary-color {
-  color: var(--primary-color);
-  font-size: 16px;
-  font-weight: bold;
-}
-
 .h2-join-us-title {
   color: var(--primary-color);
   font-size: 20px;
@@ -60,6 +30,7 @@
 .h2-support {
   font-size: 20px;
   font-weight: bold;
+  padding-top: 10px;
 }
 .cards p {
   font-size: 14px;
@@ -87,9 +58,23 @@
   color: var(--yellow);
 }
 
+.cards-info-orange h2,
+.cards-info-orange + a {
+  color: var(--orange-light);
+}
+
+.cards-info-purple h2,
+.cards-info-purple + a {
+  color: var(--purple);
+}
+
+.cards-info-black h2,
+.cards-info-black + a {
+  color: var(--primary-color);
+}
+
 .cards-info-black {
   background-color: black;
-  padding: 16px;
 }
 .cards-info-black p {
   color: white;

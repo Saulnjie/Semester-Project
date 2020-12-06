@@ -18,15 +18,23 @@
   </head>
   <body>
     <div class="container">
-      <div class="header-container">
-        <h1 class="logo">TSSMuseum</h1>
-        <div class="nav">
-          <li class="exhibition-nav-title">Exhibition</li>
-          <li>Visit</li>
-          <li>Register</li>
-          <button class="buy-ticket-button">Buy ticket</button>
-        </div>
-      </div>
+      <Header class="header-container">
+        <h1 class="logo">
+          <a href="/">TSSMuseum</a>
+        </h1>
+        <ul class="nav">
+          <li class="exhibition-nav-title">
+            <a href="explore.html">Exhibition</a>
+          </li>
+          <li>
+            <a href="visit.html">Visit</a>
+          </li>
+          <li>
+            <a href="register.html">Register</a>
+          </li>
+          <button class="button"><a href="buyticket.html">Buy ticket</a></button>
+        </ul>
+      </Header>
       <main>
         <h2 class="visit-title">Your visit at TSS</h2>
         <img class="visit-banner" src="assets/img/celso-405219.jpg" />
@@ -58,22 +66,27 @@
           and more.</p>
           <p class="ticket-option-paragraph">Experience the museum
             in person or virtualy</p>
-            <button class="buy-ticket-button">Buy ticket</button>
+            <div class="visit-button-container">
+            <button class="button"><a href="buyticket.html">Buy ticket</a></button></div>
+          </div>
       </main>
       <footer class="footer-container">
-        <h2 class="footer-logo">TSSMuseum</h2>
+        <h2 class="footer-logo"><a href="/index.html">TSSMuseum</a></h2>
         <div class="opening-hours-title">Opening hours</div>
         <p>Mon - Fri: 10:00 - 17:00</p>
         <p>Sat - Sun: 09:00 - 19:00</p>
         <p class="location-title">Location</p>
-        <img src="assets/img/Mapgoogle.png" />
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.7562746504934!2d10.74770621609625!3d59.919592181869234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e645ec085c7%3A0x3fd00d504adc3870!2sDeichmans%20gate%209%2C%200178%20Oslo!5e0!3m2!1sen!2sno!4v1607188788966!5m2!1sen!2sno" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         <div class="footer-bottom">
-          <li>About us</li>
-          <li>Contact us</li>
+          <li>
+            <a href="about.html">About us</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact us</a>
+          </li>
           <li>Privacy policy</li>
           <li>Terms of use</li>
         </div>
       </footer>
-    </div>
   </body>
 </html>
