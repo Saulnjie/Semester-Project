@@ -8,13 +8,13 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/visit.css" />
+    <link rel="stylesheet" href="css/buy-ticket.css" />
     <link rel="stylesheet" href="css/main.css" />
     <script
       src="https://kit.fontawesome.com/91d0eac963.js"
       crossorigin="anonymous"
     ></script>
-    <title>TSSMuseum | Visit</title>
+    <title>TSSMuseum | Home</title>
   </head>
   <body>
     <div class="container">
@@ -26,7 +26,7 @@
           <li>
             <a href="explore.html">Exhibition</a>
           </li>
-          <li class="active-nav-title">
+          <li>
             <a href="visit.html">Visit</a>
           </li>
           <li>
@@ -37,50 +37,53 @@
           </button>
         </ul>
       </header>
-      <main>
-        <h2 class="visit-title">Your visit at TSS</h2>
-        <img class="visit-banner" src="assets/img/celso-405219.jpg" />
-        <h2 class="visit-sub-titles">LOCATION</h2>
-        <p>The museum is located at Deichmansgate 9, Oslo.</p>
-        <h2 class="visit-sub-titles">ADMISSION</h2>
-        <p>
-          The entrance is free for all.<br />There are guided tours of the
-          museum that leave every hour. <br />These tours are 70 NOK per person
-          and include a handy printed guide of the museum.<br />
-          If you would like to organise a guided tour for your group of 6 or
-          more people, please contact us to arrange the tour.
-        </p>
-        <h2 class="visit-sub-titles">HOURS</h2>
-
-        <ul>
-          <li>Monday: 10:00 – 17:00</li>
-          <li>Tuesday: 10:00 – 17:00</li>
-          <li>Wednesday: 10:00 – 17:00</li>
-          <li>Thursday: 10:00 – 17:00</li>
-          <li>Friday: 10:00 – 17:00</li>
-          <li>Saturday: 9:00 – 19:00</li>
-          <li>Sunday: 9:00 – 19:00</li>
-        </ul>
-        <h2 class="visit-sub-titles">ACCESSIBILITY</h2>
-        <p>
-          The museum has wheelchair accessibility ramps. It also has audio
-          guides and braille display signs for the visually impaired.
-        </p>
-        <h2 class="visit-sub-titles">FOOD & DRINK</h2>
-        <p>
-          There is a café attached to the museum where you can get light
-          lunches, soft drinks, coffee, snacks and more.
-        </p>
-        <p class="ticket-option-paragraph">
-          Experience the museum in person or virtualy
-        </p>
-        <div class="visit-button-container">
-          <button class="button">
-            <a href="buy-ticket.html">Buy ticket</a>
-          </button>
-        </div>
-      </main>
     </div>
+    <main>
+      <div class="container">
+        <h2 class="buy-ticket-title">
+          Schedule your visit, and reserve your tickets here
+        </h2>
+        <p>
+          Because of the current situation we ask you to schedual your visit.
+          This is helping us in mainting our COVID-19 guideline so that we can
+          continue to stay open.
+        </p>
+        <img src="/assets/img/exhibition-1863344_1920.jpg" />
+
+        <form class="buy-ticket-form">
+          <div>
+            <label for="member-type">Are you a member?</label>
+            <select name="member-type">
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+          </div>
+          <div>
+            <label for="ticket-type">Ticket type</label>
+            <select name="ticket-type">
+              <option>Regular</option>
+              <option>VR</option>
+            </select>
+          </div>
+          <div class="quantity-and-date-container">
+            <div>
+              <label for="quantity">Quantity</label>
+              <input type="number" name="quantity" />
+            </div>
+            <div>
+              <label for="date">Date</label>
+              <input type="date" name="date" />
+            </div>
+          </div>
+        </form>
+        <div class="buy-ticket-button-container">
+          <button class="button button-outlined">
+            <a href="index.html">Cancel</a>
+          </button>
+          <button class="button"><a href="transaction.html">Proceed</a></button>
+        </div>
+      </div>
+    </main>
     <footer>
       <div class="container">
         <h2 class="footer-logo"><a href="/index.html">TSSMuseum</a></h2>

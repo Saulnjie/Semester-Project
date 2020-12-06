@@ -56,8 +56,9 @@ body {
   color: #707070;
 }
 
-.exhibition-nav-title {
-  color: #de0d48;
+.active-nav-title {
+  border-bottom: var(--primary-color) solid 2px;
+  margin-bottom: -2px;
 }
 
 .logo {
@@ -135,6 +136,18 @@ footer p {
     max-width: 1152px;
     margin: 0 auto;
   }
+}
+
+label {
+  font-weight: 600;
+}
+
+input,
+select {
+  width: 100%;
+  background-color: #f3f4f6;
+  padding: 8px;
+  border-radius: var(--border-radius);
 }
 
 /* h2,
