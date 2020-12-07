@@ -1,0 +1,47 @@
+:root {
+  /* BREAKPOINTS */
+  --breakpoint-tablet: 640px;
+  --breakpoint-laptop: 1024px; /* <----- main breakpoint */
+  --breakpoint-desktop: 1280px;
+
+  /* COLORS */
+  --primary-color: #de0d48;
+  --yellow: #d4c30d;
+  --purple: #722099;
+  --blue: #1b0dde;
+  --orange-dark: #c74b16;
+  --orange-light: #de950d;
+  --gray-50: #f9fafb;
+  --gray-100: #f3f4f6;
+  --gray-200: #e5e7eb;
+  --gray-300: #d1d5db;
+  --gray-400: #9ca3af;
+  --gray-500: #6b7280;
+  --gray-600: #4b5563;
+  --gray-700: #374151;
+  --gray-800: #1f2937;
+  --gray-900: #111827;
+}
+
+.register-title {
+  color: var(--primary-color);
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.register-sub-title {
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.name-container {
+  display: grid;
+  column-gap: 8px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.register-button-container {
+  margin: 16px 0;
+}
