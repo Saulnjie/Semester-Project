@@ -36,6 +36,9 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.involve-picture {
+  padding: 8px 0;
+}
 
 .involve-button-container {
   display: flex;
