@@ -89,6 +89,7 @@ li {
   color: white;
   cursor: pointer;
   transition: opacity 100ms ease-in-out;
+  height: 50px;
 }
 
 .button:hover {
@@ -99,6 +100,7 @@ li {
   background-color: transparent;
   border: 2px solid var(--primary-color);
   color: var(--primary-color);
+  height: 50px;
 }
 
 footer {
@@ -148,6 +150,7 @@ select {
   background-color: #f3f4f6;
   padding: 8px;
   border-radius: var(--border-radius);
+  border: none;
 }
 
 /* h2,
