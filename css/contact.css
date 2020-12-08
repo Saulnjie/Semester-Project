@@ -38,3 +38,19 @@ p {
 .contact-button-container {
   margin: 16px 0;
 }
+
+@media (min-width: 1024px) {
+  .contact-banner {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  .contact-us-card-container {
+    display: flex;
+    column-gap: 16px;
+    padding-top: 20px;
+  }
+  .contact-form {
+    width: 500px;
+  }
+}

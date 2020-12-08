@@ -50,3 +50,25 @@
 .involve-button-container button {
   margin-right: 16px;
 }
+
+@media (min-width: 1024px) {
+  .involve-picture {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+  .involve-card-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 16px;
+  }
+  .involve-card-container-left {
+    display: flex;
+    flex-direction: column;
+  }
+  .involve-card-container-right {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+  }
+}

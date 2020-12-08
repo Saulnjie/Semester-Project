@@ -49,3 +49,15 @@
   color: var(--gray-400);
   font-size: 14px;
 }
+
+@media (min-width: 1024px) {
+  .login-banner {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .name-container {
+    width: 500px;
+  }
+}

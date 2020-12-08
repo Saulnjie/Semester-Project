@@ -4,3 +4,4 @@ SJEKK UT MARKDONW PÅ YOUTUBE
 
 - https://maps.google.com
 - https://tailwindcss.com
+- https://pexels.com

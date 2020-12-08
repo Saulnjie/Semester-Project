@@ -1,7 +1,5 @@
 -lag page title istedenfor "buy-ticket-title osv
 -Fjerne potensiell margin fra border på outlined buttons!!!!
--fjerne border på aktiv label
+-Svart border på aktiv label
 -fjerne ekstrem margin mellom title og nav på alle sider (CONTAINER)
--How do I increase the textbox size in contact us?
--fjern alle classes på opening hours og location
 -fikse mellomrom mellom opening hours på contact blant annet
