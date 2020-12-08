@@ -25,7 +25,7 @@
 
 .involve-title {
   color: var(--primary-color);
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   padding-bottom: 10px;
 }
@@ -40,12 +40,12 @@
 .involve-button-container {
   display: flex;
   flex-direction: row;
-  margin: 16px 0;
+  margin-top: 16px;
 }
 
-p {
+/* p {
   padding-bottom: 10px;
-}
+} */
 
 .involve-button-container button {
   margin-right: 16px;

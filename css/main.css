@@ -43,9 +43,19 @@ body {
   padding: 20px;
   flex-direction: column;
 }
+
 .header-container {
   display: flex;
   flex-direction: column;
+}
+
+.header-container nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-container ul li {
+  margin-right: 8px;
 }
 
 .nav {
@@ -124,7 +134,15 @@ footer p {
 .location-title {
   margin-top: 20px;
   font-weight: bold;
+  font-size: 16px;
 }
+
+h3 {
+  margin-top: 20px;
+  font-weight: bold;
+  margin: 6px 0;
+}
+
 .footer-bottom {
   display: flex;
   flex-direction: row;
@@ -140,12 +158,40 @@ footer p {
   }
 }
 
+@media (max-width: 1024px) {
+  .container.mobile-fluid {
+    padding: 0;
+  }
+
+  .header-container .buy-ticket-desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .header-container ul li {
+    margin-right: 16px;
+  }
+
+  .header-container .buy-ticket-mobile {
+    display: none;
+  }
+}
+
 label {
   font-weight: 600;
 }
 
 input,
-select {
+select,
+textarea {
   width: 100%;
   background-color: #f3f4f6;
   padding: 8px;

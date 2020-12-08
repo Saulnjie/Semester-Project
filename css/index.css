@@ -1,28 +1,3 @@
-:root {
-  /* BREAKPOINTS */
-  --breakpoint-tablet: 640px;
-  --breakpoint-laptop: 1024px; /* <----- main breakpoint */
-  --breakpoint-desktop: 1280px;
-
-  /* COLORS */
-  --primary-color: #de0d48;
-  --yellow: #d4c30d;
-  --purple: #722099;
-  --blue: #1b0dde;
-  --orange-dark: #c74b16;
-  --orange-light: #de950d;
-  --gray-50: #f9fafb;
-  --gray-100: #f3f4f6;
-  --gray-200: #e5e7eb;
-  --gray-300: #d1d5db;
-  --gray-400: #9ca3af;
-  --gray-500: #6b7280;
-  --gray-600: #4b5563;
-  --gray-700: #374151;
-  --gray-800: #1f2937;
-  --gray-900: #111827;
-}
-
 .h2-join-us-title {
   color: var(--primary-color);
   font-size: 20px;
@@ -30,7 +5,7 @@
 .h2-support {
   font-size: 20px;
   font-weight: bold;
-  padding-top: 10px;
+  padding-top: 10 px;
 }
 .cards p {
   font-size: 14px;
@@ -41,6 +16,9 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
+}
+.cards {
+  background-color: var(--gray-100);
 }
 
 .cards-info h2 {
@@ -87,4 +65,12 @@
   width: 100%;
   height: 300px;
   object-fit: cover;
+}
+
+@media (min-width: 1024px) {
+  .cards-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+  }
 }

@@ -44,5 +44,9 @@
 }
 
 .register-button-container {
-  margin: 16px 0;
+  margin-top: 16px;
+}
+
+.register-button-container button {
+  margin-right: 8px;
 }
