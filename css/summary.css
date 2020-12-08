@@ -30,7 +30,9 @@
   color: var(--primary-color);
 }
 .summary-banner {
-  /* how do I make this smaller? and fit (200px)*/
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
 .thank-you {
   font-size: 18px;
@@ -41,9 +43,6 @@
 
 .summary-paragraph {
   margin-bottom: 40px;
-}
-
-.summary-quantity {
 }
 
 .summary-total {
