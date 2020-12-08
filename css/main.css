@@ -150,6 +150,20 @@ h3 {
   font-size: 14px;
   margin-top: 60px;
 }
+label {
+  font-weight: 600;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  background-color: #f3f4f6;
+  padding: 8px;
+  border-radius: var(--border-radius);
+  border: none;
+  border-color: black;
+}
 
 @media (min-width: 1024px) {
   .container {
@@ -184,25 +198,3 @@ h3 {
     display: none;
   }
 }
-
-label {
-  font-weight: 600;
-}
-
-input,
-select,
-textarea {
-  width: 100%;
-  background-color: #f3f4f6;
-  padding: 8px;
-  border-radius: var(--border-radius);
-  border: none;
-}
-
-/* h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 8px 0;
-} */
