@@ -67,6 +67,15 @@
   object-fit: cover;
 }
 
+.full-screen-banner {
+  height: unset;
+  background: unset;
+}
+
+.banner-text-container {
+  display: none;
+}
+
 @media (min-width: 1024px) {
   .cards-container {
     display: grid;
@@ -80,6 +89,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .full-screen-banner .logo {
@@ -111,10 +124,22 @@
     order: 2;
   }
 
+  .banner-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   .home-banner-title {
     color: white;
     font-size: 60px;
-    display: flex;
-    justify-content: center;
+    flex: 1;
+  }
+  .fa-chevron-down {
+    color: white;
+    flex: 1;
+  }
+  .capital-letter {
+    font-size: 24px;
   }
 }
