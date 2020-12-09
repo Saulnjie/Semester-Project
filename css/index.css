@@ -73,4 +73,16 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 16px;
   }
+
+  .full-screen-banner {
+    height: 100vh;
+    background-image: url(../assets/img/Home-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .full-screen-banner .logo {
+    color: white;
+  }
 }

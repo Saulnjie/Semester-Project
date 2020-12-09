@@ -1,5 +1,5 @@
--lag page title istedenfor "buy-ticket-title osv
--Fjerne potensiell margin fra border på outlined buttons!!!!
--Svart border på aktiv label
--fjerne ekstrem margin mellom title og nav på alle sider (CONTAINER)
+ -LANDING PAGE
+-fikse mobil input stylinga
+-fikse margin mellom title og nav på alle sider (CONTAINER)
 -fikse mellomrom mellom opening hours på contact blant annet
+-lag page title istedenfor "buy-ticket-title osv
