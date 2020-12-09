@@ -45,7 +45,7 @@ label {
   grid-template-columns: 1fr 1fr;
 }
 
-.container p {
+.buy-ticket-info {
   padding-top: 10px;
   padding-bottom: 10px;
 }

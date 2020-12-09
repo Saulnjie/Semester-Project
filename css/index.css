@@ -1,6 +1,7 @@
 .h2-join-us-title {
   color: var(--primary-color);
   font-size: 20px;
+  font-weight: bold;
 }
 .h2-support {
   font-size: 20px;
@@ -45,6 +46,10 @@
 .cards-info-purple + a {
   color: var(--purple);
 }
+.cards-info-dark-orange h2,
+.cards-info-dark-orange + a {
+  color: var(--orange-dark);
+}
 
 .cards-info-black h2,
 .cards-info-black + a {
@@ -67,10 +72,23 @@
   object-fit: cover;
 }
 
+.capital-letter {
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .full-screen-banner {
   height: unset;
   background: unset;
 }
+
+.fa-chevron-down {
+  display: none;
+}
+.home-banner-title {
+  display: none;
+}
+
 /* 
 @media (max-width: 1023px) {
   .home-banner-title {
@@ -90,7 +108,7 @@
 
   .full-screen-banner {
     height: 100vh;
-    background-image: url(../assets/img/Home-banner.jpg);
+    background-image: url(../assets/img/drone.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -98,6 +116,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 20px;
   }
 
   .full-screen-banner .logo {
@@ -123,10 +142,10 @@
   }
 
   .join-us-home-container {
-    order: 1;
+    order: 2;
   }
   .cards-container {
-    order: 2;
+    order: 1;
   }
 
   .banner-text-container {
@@ -136,20 +155,25 @@
   }
 
   .home-banner-title {
+    display: block;
     color: white;
     font-size: 60px;
   }
   .fa-chevron-down {
+    display: block;
     color: white;
     font-size: 30px;
     margin-bottom: 40px;
   }
   .capital-letter {
     font-size: 30px;
-    color: var(--primary-color);
+    color: black);
+    font-weight: bold;
   }
 
   .h2-join-us-title {
-    display: none;
+    color: var(--primary-color);
+    font-size: 30px;
+    font-weight: bold;
   }
 }
