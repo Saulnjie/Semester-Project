@@ -27,13 +27,13 @@
   font-size: 20px;
   font-weight: bold;
   color: var(--primary-color);
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .explore-sub-title {
   font-size: 18px;
   font-weight: bold;
-  padding-top: 10px;
   padding-bottom: 5px;
 }
 
