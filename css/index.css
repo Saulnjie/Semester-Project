@@ -85,4 +85,36 @@
   .full-screen-banner .logo {
     color: white;
   }
+  .content-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .support-us-picture {
+    width: 50%;
+    height: 225px;
+    object-fit: cover;
+    object-position: 0 40%;
+  }
+
+  .support-us-home-container {
+    display: flex;
+    flex-direction: row !important;
+    gap: 16px;
+    order: 3;
+  }
+
+  .join-us-home-container {
+    order: 1;
+  }
+  .cards-container {
+    order: 2;
+  }
+
+  .home-banner-title {
+    color: white;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+  }
 }
