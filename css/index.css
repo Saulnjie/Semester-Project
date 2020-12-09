@@ -71,10 +71,15 @@
   height: unset;
   background: unset;
 }
-
-.banner-text-container {
-  display: none;
+/* 
+@media (max-width: 1023px) {
+  .home-banner-title {
+    display: none;
+  }
 }
+.fa-chevron-down {
+  display: none;
+} */
 
 @media (min-width: 1024px) {
   .cards-container {
@@ -91,8 +96,8 @@
     background-size: cover;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
   }
 
   .full-screen-banner .logo {
@@ -133,13 +138,18 @@
   .home-banner-title {
     color: white;
     font-size: 60px;
-    flex: 1;
   }
   .fa-chevron-down {
     color: white;
-    flex: 1;
+    font-size: 30px;
+    margin-bottom: 40px;
   }
   .capital-letter {
-    font-size: 24px;
+    font-size: 30px;
+    color: var(--primary-color);
+  }
+
+  .h2-join-us-title {
+    display: none;
   }
 }
