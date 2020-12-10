@@ -32,6 +32,8 @@
 
 body {
   font-family: "Rubik", sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 html,
@@ -118,6 +120,7 @@ li {
 footer {
   background-color: var(--primary-color);
   color: white;
+  margin-top: auto;
 }
 
 footer iframe {

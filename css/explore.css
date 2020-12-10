@@ -28,6 +28,7 @@
   font-weight: bold;
   color: var(--primary-color);
   padding-bottom: 10px;
+  padding-top: 20px;
 }
 
 .explore-sub-title {

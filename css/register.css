@@ -50,6 +50,12 @@
 .register-button-container button {
   margin-right: 8px;
 }
+.register-form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  row-gap: 8px;
+}
 
 @media (min-width: 1024px) {
   .register-banner {

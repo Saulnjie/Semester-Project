@@ -33,14 +33,15 @@
 .login-sub-title {
   font-size: 18px;
   font-weight: 600;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 10px;
 }
 
-.name-container {
-  display: grid;
-  column-gap: 8px;
-  grid-template-columns: 1fr 1fr;
+.login-container {
+  display: flex;
+  row-gap: 8px;
+  flex-direction: column;
+  max-width: 500px;
 }
 .login-button-container {
   margin: 16px 0;
