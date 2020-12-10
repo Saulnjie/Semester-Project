@@ -169,6 +169,40 @@ textarea {
   border: none;
   border-color: black;
 }
+select {
+  appearance: none;
+}
+.select-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.select-container i {
+  position: absolute;
+  right: 0;
+  margin-right: 16px;
+  pointer-events: none;
+  color: var(--gray-600-);
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+.input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.input-container i {
+  position: absolute;
+  right: 0;
+  margin-right: 16px;
+  pointer-events: none;
+  color: var(--gray-600-);
+}
 
 @media (min-width: 1024px) {
   .container {

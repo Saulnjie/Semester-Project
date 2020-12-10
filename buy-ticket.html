@@ -59,17 +59,23 @@
         <form class="buy-ticket-form">
           <div>
             <label for="member-type">Are you a member?</label>
-            <select name="member-type">
-              <option>Yes</option>
-              <option>No</option>
-            </select>
+            <div class="select-container">
+              <i class="fas fa-chevron-down"></i>
+              <select name="member-type">
+                <option>Yes</option>
+                <option>No</option>
+              </select>
+            </div>
           </div>
           <div>
             <label for="ticket-type">Ticket type</label>
-            <select name="ticket-type">
-              <option>Regular</option>
-              <option>VR</option>
-            </select>
+            <div class="select-container">
+              <i class="fas fa-chevron-down"></i>
+              <select name="ticket-type">
+                <option>Regular</option>
+                <option>VR</option>
+              </select>
+            </div>
           </div>
           <div class="quantity-and-date-container">
             <div>
@@ -78,7 +84,10 @@
             </div>
             <div>
               <label for="date">Date</label>
-              <input type="date" name="date" />
+              <div class="input-container">
+                <i class="fas fa-calendar"></i>
+                <input type="date" name="date" />
+              </div>
             </div>
           </div>
         </form>

@@ -1,5 +1,3 @@
-SJEKK UT MARKDONW PÅ YOUTUBE
-
 # References
 
 - https://maps.google.com
