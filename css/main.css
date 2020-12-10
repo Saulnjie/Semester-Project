@@ -187,12 +187,6 @@ input {
   color: var(--gray-600-);
 }
 
-/* input[type="date"]::-webkit-inner-spin-button,
-input[type="date"]::-webkit-calendar-picker-indicator {
-  display: none;
-  -webkit-appearance: none;
-} */
-
 .input-container {
   position: relative;
   display: flex;
