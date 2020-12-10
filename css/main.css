@@ -169,8 +169,10 @@ textarea {
   border: none;
   border-color: black;
 }
-select {
-  appearance: none;
+select,
+input {
+  -webkit-appearance: none;
+  height: 40px;
 }
 .select-container {
   position: relative;
@@ -185,11 +187,11 @@ select {
   color: var(--gray-600-);
 }
 
-input[type="date"]::-webkit-inner-spin-button,
+/* input[type="date"]::-webkit-inner-spin-button,
 input[type="date"]::-webkit-calendar-picker-indicator {
   display: none;
   -webkit-appearance: none;
-}
+} */
 
 .input-container {
   position: relative;
